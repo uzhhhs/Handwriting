@@ -20,7 +20,7 @@ input_size = 784#28*28
 list = []
 hidden_units_size = 30#层节点数
 batch_size = 100#
-training_iterations = 20000#迭代次数
+training_iterations = 50000#迭代次数
 # 设置变量
 X = tf.placeholder (tf.float32, shape = [None, input_size])
 Y = tf.placeholder (tf.float32, shape = [None, num_classes])
